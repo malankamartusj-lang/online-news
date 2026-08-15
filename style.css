@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body, ul {
     margin: 0;
     padding: 0;
@@ -64,4 +68,123 @@ main {
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14) 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 20px;
 
+}
+.hero-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.hero-img {
+    width: 100%;
+    height: 240px;
+}
+.hero-item{
+    width: 330px;
+    padding: 15px;
+    border-color: azure;
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 8px;
+
+}
+.hero-wrapper {
+    margin-top: 20px;
+    color: black;
+}
+.hero-text {
+    padding-top: 10px;
+}
+.hero-item:hover {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14) 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.footer {
+    background-color: #aa43a2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo {
+    color: #fec830;
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-list {
+    display: flex;
+    gap: 20px;
+}
+.footer-link {
+    color: white;
+    font-size: 20px;
+}
+.cat-container, .dog-container, .study-container, .contacts-container, .minecraft-container, .football-container, .ai-container {
+    background-color: rgb(247, 247, 247);
+    margin: 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14) 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}   
+.cat-card-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cat-card-img {
+    display: block;
+    margin: auto;
+}
+.dog-card-title {
+    text-align: center;
+}
+.dog-card-img {
+    display: block;
+    margin: auto;
+}
+.study-img {
+    display: block;
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+}
+.contact-link {
+    color: #aa43a2;
+}
+.contact-link:hover {
+    font-weight: 700;
+}
+.contact-img {
+    width: 100%;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14) 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.minecraft-title {
+    text-align: center;
+}
+.minecraft-img {
+    display: block;
+    margin: auto;
+    width: 750px;
+    height: 480px;
+
+}
+.title {
+    text-align: center;
+}
+.football-title {
+    text-align: center;
+}
+.football-img {
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    margin-bottom: 20px;
+}
+.ai-title {
+    text-align: center;
+}
+.ai-img {
+    display: block;
+    margin: auto;
 }
