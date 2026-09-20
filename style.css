@@ -95,7 +95,7 @@ main {
     padding-top: 10px;
 }
 .hero-item:hover {
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14) 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .footer {
     background-color: #aa43a2;
@@ -122,7 +122,6 @@ main {
 }
 .cat-container, .dog-container, .study-container, .contacts-container, .minecraft-container, .football-container, .ai-container {
     background-color: rgb(247, 247, 247);
-    margin: 30px;
     border: 1px solid gray;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14) 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 20px;
